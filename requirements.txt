@@ -1,0 +1,14 @@
+# AEON X — Raspberry Pi Dependencies (FIXED v1.1)
+# Install: pip3 install -r requirements.txt
+
+pyserial>=3.5
+smbus2>=0.4.1
+pynmea2>=1.18.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+
+# VL53L0X ToF sensor — Adafruit CircuitPython library (BUG-I fix)
+# This is the one that actually works on Pi with I2C:
+adafruit-circuitpython-vl53l0x>=3.6.0
+# Requires: pip3 install adafruit-blinka  (Pi hardware abstraction)
+adafruit-blinka>=8.0.0
